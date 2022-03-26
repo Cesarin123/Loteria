@@ -59,7 +59,7 @@ footer{
     border: 1px solid #000;
     margin: .2em;
     cursor: pointer;
-    background-image: url(/Loteria/images/cardBack.png);
+    background-image: url(/images/cardBack.png);
     background-repeat: no-repeat;
     -webkit-border-radius: 6px 6px 6px 6px;
     -moz-border-radius: 6px 6px 6px 6px;
