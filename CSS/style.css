@@ -52,6 +52,21 @@ footer{
     height: 130px;
 }
 
+.cardCell {
+    float: left;
+    width: 78px;
+    height: 124px;
+    border: 1px solid #000;
+    margin: .2em;
+    cursor: pointer;
+    background-image: url(/Loteria/images/cardBack.png);
+    background-repeat: no-repeat;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+    z-index: 500;
+}
+
 label{
     width: 20px;
 }
