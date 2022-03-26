@@ -1,11 +1,11 @@
 header{
-    background-color: red;
+    background-color: rgb(180, 113, 51);
 }
 content{
     background-color: green;
 }
 footer{
-    background-color: pink;
+    background-color: rgb(252, 141, 159);
 }
 /* global style to remove margins and padding from default*/
 *{
@@ -16,7 +16,7 @@ footer{
 }
 
 .wrapper{
-    background-color: orange;
+    background-color: rgb(255, 205, 111);
     display: flex;
     padding: 50px 50px 50px 50px;
 }
