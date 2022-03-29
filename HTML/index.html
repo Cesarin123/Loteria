@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <title>Juego de loteria mexicana</title>
 </head>
-<body>
+<body onload="insertImages()">
     <header>
-        <div class="adorno">
+        <!-- <script console.log("Ive generated a new img tag");></script> -->
+        <div class="adorno" id="adorno">
             Aqui va el adorno de hasta arriba
         </div>
+        <!-- <button onclick="nextImage()">Next Image</button> -->
         <div class="loteria">
             Aqui va la imagen o texto de bienvenida
         </div>
@@ -22,25 +24,25 @@
                 <label>Nombre:
                 <input type="text" id="nombre-field">
                 </label>
-                <button class="boton-inicio">Boton</button><br>
+                <button class="boton-inicio" onclick="inicio()">Boton</button><br>
                 <label>Elige un tablero:</label>
                 <ul>
-                    <li><input type="radio" name="check1" id="check1">1</li>
-                    <li><input type="radio" name="check2" id="check2">2</li>
-                    <li><input type="radio" name="check3" id="check3">3</li>
-                    <li><input type="radio" name="check4" id="check4">4</li>
-                    <li><input type="radio" name="check5" id="check5">5</li>
-                    <li><input type="radio" name="check6" id="check6">6</li>
-                    <li><input type="radio" name="check7" id="check7">7</li>
-                    <li><input type="radio" name="check8" id="check8">8</li>
-                    <li><input type="radio" name="check9" id="check9">9</li>
-                    <li><input type="radio" name="check10" id="check10">10</li>
+                    <li><input type="radio" name="check" id="check1">1</li>
+                    <li><input type="radio" name="check" id="check2">2</li>
+                    <li><input type="radio" name="check" id="check3">3</li>
+                    <li><input type="radio" name="check" id="check4">4</li>
+                    <li><input type="radio" name="check" id="check5">5</li>
+                    <li><input type="radio" name="check" id="check6">6</li>
+                    <li><input type="radio" name="check" id="check7">7</li>
+                    <li><input type="radio" name="check" id="check8">8</li>
+                    <li><input type="radio" name="check" id="check9">9</li>
+                    <li><input type="radio" name="check" id="check10">10</li>
                 </ul>
                 <a href="#">Cambiar sala</a>
             </div>
             <div class="fixGameBoard">
-                <div class="gameBoard">
-                    <div class="boardRow">
+                <div class="gameBoard" id="gameBoard">
+                    <div class="boardRow" id="boardRow">
                         <div id="card1" class="cardCell"></div>
                         <div id="card2" class="cardCell"></div>
                         <div id="card3" class="cardCell"></div>

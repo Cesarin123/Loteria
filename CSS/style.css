@@ -34,7 +34,7 @@ footer{
     width: 380px;
     height: 550px;
 }
-
+/*tablero*/
 .gameBoard{
     position: absolute;
     left: 0;
@@ -46,12 +46,13 @@ footer{
     border: 1px solid #d1d1cf;
     border-radius: 5px 5px 5px 5px;
 }
+/*filas del tablero*/
 .boardRow {
     float: left;
     width: 355px;
     height: 130px;
 }
-
+/*cada celda de las filas del tablero*/
 .cardCell {
     float: left;
     width: 78px;
@@ -66,6 +67,7 @@ footer{
     border-radius: 6px 6px 6px 6px;
     z-index: 500;
 }
+
 
 label{
     width: 20px;
