@@ -1,11 +1,25 @@
-header{
-    background-color: rgb(180, 113, 51);
+header{ /* Cabecera*/
+    background: url(/Imagenes/fondo_cabecera.jpg); /* Imagen de Cabecera - Papel picado*/
+    background-size: 50%, 50%;
+    height: 250px;
+    overflow: hidden;
 }
+
+h1 { /* Texto de Cabecera*/
+    text-align: center;
+    font-size: 80px;
+    margin-top: 5%; /* Para que quede centrado el texto de cabecera*/
+    color: #00d624;
+    text-shadow: /* Las sombras que tendra el texto */
+    4px 4px 0px #E0E4CC,
+    9px 8px 0px #ff2f2f;
+}
+
 content{
     background-color: green;
 }
 footer{
-    background-color: rgb(252, 141, 159);
+    background-color: rgb(0, 0, 0);
 }
 /* global style to remove margins and padding from default*/
 *{
@@ -15,8 +29,8 @@ footer{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.wrapper{
-    background-color: rgb(255, 205, 111);
+.wrapper{ /* Color de fondo */
+    background-color: rgb(14, 37, 82);
     display: flex;
     padding: 50px 50px 50px 50px;
 }
@@ -78,3 +92,7 @@ li{
     list-style: none;
 }
 
+body {
+    margin: 0; /* Le agregue un margen al texto */
+    font-family: 'Montserrat', sans-serif; /* Se le cambio la tipografia */
+}
